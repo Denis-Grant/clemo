@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Clemo</title>
+</head>
+<body class='font-montserrat'>
+    <header class='border-b  py-12'>
+        <div class="container mx-auto px-4 ">
+            <nav class='flex justify-between items-center'>
+                <img id='brand' class='h-5' src="public/img/logo.png" alt="">
+                <svg class='w-10 px-2 py-1 border rounded cursor-pointer md:hidden' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                <ul class="hidden md:flex space-x-6 text-xs text-lightblack">
+                    <li><a href="">about us</a></li>
+                    <li><a href="">services</a></li>
+                    <li><a href="">works</a></li>
+                    <li><a href="">blog</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="blog" class='py-20'>
+        <div class="container mx-auto flex flex-col items-center px-4">
+                <h1 class='font-bold text-5xl md:text-6xl tracking-widest mb-10'>blog</h1>
+                <ul class="text-lightblack flex space-x-6 mb-16">
+                    <li>All</li>
+                    <li>creative</li>
+                    <li>art design</li>
+                    <li>life events</li>
+                </ul>
+        </div>
+        <div id="posts">
+            <div class="container mx-auto">
+                <div class="post grid grid-cols-1 md:grid-cols-2 md:gap-x-8 ">
+                    <!-- <div class="img-wrapper relative mb-8 max-w-maximgsm  lg:max-w-maximg"> -->
+                        <img class='mx-auto mb-5 opacity-100 w-full object-cover max-w-maximgsm md:max-w-maximg block' src="public/img/service0.png" alt="">
+                        <!-- <div class="absolute left-0 right-0 top-0 bottom-0 bg-gray-900 opacity-25"></div> -->
+                    <!-- </div> -->
+                    <div class="flex flex-col items-center md:items-start">
+                        <h2 class="font-bold text-4xl">kitchen</h2>
+                        <h4 class='text-gray-600 py-2'>16 november 2020</h4>
+                        <div class="w-20 border-b-2 border-lightblack py-2 mb-4" ></div>
+                        <div class="text-center md:text-left px-3 md:px-0 mb-6 md:text-lg" style='color: #656570'>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    
+                            <p>
+                                </br>
+                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                </p>
+                        </div>
+                        <button class='my-4'><a href="" class='text-lightblack border rounded-full border-gray-400  px-6 py-2 text-lg tracking-widest'>learn more</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class='text-center'>
+        <p class='text-xs py-10 border-t'>Made by D. Grant Inc. <span class='pl-1'>&copy; 2020 All Rights Reserved</span></p>
+    </footer>
+</body>
+</html>
